@@ -1,0 +1,189 @@
+#profile{
+    width:150px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+body{
+    margin: 0;
+    padding-top:600px;
+}
+#welcome{
+    position: absolute;
+    height: 700px;
+    color: currentColor;
+    opacity: 1;
+    background:linear-gradient(#03c8ff 0%, #03ff85 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+   top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+    z-index: 9;
+}
+h1{
+    font-size: 80px;
+    font-family: serif;
+    font-weight: 300;
+}
+
+.text-box{
+     font-size: 100px;
+    font-family: fantasy;
+     font-weight: 300;
+
+ 
+}
+#name{
+     font-size: 40px;
+    font-family: 'The Nautigal', cursive;
+     font-weight: 300;
+    line-height: 1.2;
+}
+
+span{
+display: inline-block;
+    font font-weight: bolder;
+    animation: mover 6s linear infinite;    
+}
+@keyframes mover{
+    0%{  text-shadow: 0 0 30px rgba(0,0,0,0); 
+} 
+      50%{  text-shadow: 0 0 30px rgba(0,0,0,0.30); 
+          transform: translateY(30px)
+}  
+    100%{  text-shadow: 0 0 30px rgba(0,0,0,0); 
+} 
+
+
+
+
+}
+
+span:nth-child(1){
+    animation-delay: 0.5s
+}
+
+span:nth-child(2){
+    animation-delay: 1.0s
+}
+
+span:nth-child(3){
+    animation-delay: 1.5s
+}
+
+span:nth-child(4){
+    animation-delay: 2.0s
+}
+
+span:nth-child(5){
+    animation-delay: 2.5s
+}
+
+span:nth-child(6){
+    animation-delay: 3.0s
+}
+
+span:nth-child(7){
+    animation-delay: 3.5s
+}
+
+span:nth-child(8){
+    animation-delay: 4.0s
+}
+
+span:nth-child(9){
+    animation-delay: 4.5s
+}
+span:nth-child(10){
+    animation-delay: 5.0s
+}
+span:nth-child(11){
+    animation-delay: 5.5s
+}
+span:nth-child(13){
+    animation-delay: 6.s
+}
+span:nth-child(13){
+    animation-delay: 6.5s
+}
+span:nth-child(14){
+    animation-delay: 7.0s
+}
+span:nth-child(15){
+    animation-delay: 7.5s
+}
+
+span:nth-child(16){
+    animation-delay: 8.0s
+}
+
+span:nth-child(17){
+    animation-delay: 8.5s
+}
+span:nth-child(18){
+    animation-delay: 9.0s
+}
+span:nth-child(19){
+    animation-delay: 9.5s
+}
+
+
+
+
+
+
+#bio{
+    
+    padding: 100px ;
+    text-align: center;
+    top: 30px;
+}
+.line{
+    height: 6px;
+    background-color: chartreuse;
+    width: 70px;
+    margin: 8px auto;
+    
+    
+}
+p{
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.liner{
+     text-align: center;
+    vertical-align: middle;
+    position: relative;
+    display: table-cell;
+    
+}
+
+
+.menu{
+ list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top:10px;
+    right: 20px;
+    z-index: 10;
+    cursor: pointer;
+    
+}
+.link{
+    float: left;
+    color:#fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.link:hover{
+    background-color: blue;
+}
